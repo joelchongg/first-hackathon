@@ -1,13 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI System Monitor Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
+        :root {
+            --primary-color: #1976D2;
+            --secondary-color: #2196F3;
+            --success-color: #4CAF50;
+            --warning-color: #FFC107;
+            --danger-color: #F44336;
+            --text-primary: #212121;
+            --text-secondary: #757575;
+            --bg-primary: #FFFFFF;
+            --bg-secondary: #F5F5F5;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f5f5f5;
-            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: var(--bg-primary);
+            color: var(--text-primary);
         }
 
         .dashboard-container {
@@ -16,250 +32,87 @@
         }
 
         .header {
-            background-color: #2196F3;
-            color: white;
+            text-align: center;
+            margin-bottom: 30px;
             padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        .metric {
-            background-color: white;
-            margin: 20px 0;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         .metrics-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         .metric-card {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
+            background: var(--bg-secondary);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         .metric-value {
-            font-size: 24px;
+            font-size: 2em;
             font-weight: bold;
-            margin: 10px 0;
+            color: var(--primary-color);
         }
 
-        .fault-controls {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin: 15px 0;
-        }
-
-        .fault-controls button {
-            padding: 10px 20px;
-            background-color: #f44336;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-            font-weight: bold;
-        }
-
-        .fault-controls button:hover {
-            background-color: #d32f2f;
-        }
-
-        #active-faults {
-            margin-top: 15px;
-            padding: 15px;
-            background-color: #fff3e0;
-            border-radius: 4px;
-            border-left: 4px solid #ff9800;
-        }
-
-        .recovery-status {
-            padding: 15px;
-            margin: 10px 0;
-            background-color: #e8f5e9;
-            border-radius: 4px;
-            border-left: 4px solid #4caf50;
-        }
-
-        .recovery-active {
-            background-color: #fff3e0;
-            border-left: 4px solid #ff9800;
-        }
-
-        .warning {
-            color: #f44336;
-            font-weight: bold;
-        }
-
-        .recommendations {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .recommendations li {
-            padding: 10px;
-            margin: 5px 0;
-            border-radius: 4px;
-            background-color: #f5f5f5;
-        }
-
-        .recommendations li.critical {
-            background-color: #ffebee;
-            color: #c62828;
-            border-left: 4px solid #c62828;
-        }
-
-        /* Recovery Actions Styles */
-        .recovery-steps {
-            position: relative;
+        .chart-container {
+            background: var(--bg-secondary);
             padding: 20px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            border: 1px solid #e0e0e0;
-            margin: 10px 0;
+            border-radius: 12px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        .action-list {
-            position: relative;
-            z-index: 2;
-        }
-
-        .recovery-action {
-            display: flex;
-            align-items: center;
-            margin: 15px 0;
-            padding: 10px;
-            background: white;
-            border-radius: 6px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            transition: all 0.3s ease;
-            animation: slideIn 0.3s ease forwards;
-        }
-
-        .action-step {
-            width: 30px;
-            height: 30px;
+        .status-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #2196F3, #1976d2);
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 15px;
-            font-weight: bold;
-            box-shadow: 0 2px 4px rgba(33, 150, 243, 0.2);
+            margin-right: 8px;
         }
 
-        .action-content {
-            flex-grow: 1;
-        }
+        .status-healthy { background-color: var(--success-color); }
+        .status-warning { background-color: var(--warning-color); }
+        .status-critical { background-color: var(--danger-color); }
 
-        .action-text {
-            font-size: 0.95em;
-            color: #424242;
-        }
-
-        .action-status {
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 0.8em;
-            font-weight: bold;
-        }
-
-        .status-pending {
-            background: #f5f5f5;
-            color: #616161;
-            border: 1px solid #e0e0e0;
-        }
-
-        .status-in_progress {
-            background: #fff3e0;
-            color: #f57c00;
-            border: 1px solid #ffe0b2;
-            animation: pulse 2s infinite;
-        }
-
-        .status-complete {
-            background: #e8f5e9;
-            color: #2e7d32;
-            border: 1px solid #c8e6c9;
-        }
-
-        .recovery-progress {
-            position: absolute;
-            left: 45px;
-            top: 0;
-            bottom: 0;
-            width: 2px;
-            background: #e0e0e0;
-            z-index: 1;
-        }
-
-        .progress-indicator {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 0%;
-            background: linear-gradient(to top, #4caf50, #81c784);
-            transition: height 0.3s ease;
-            box-shadow: 0 0 4px rgba(76, 175, 80, 0.3);
-        }
-
-        @keyframes pulse {
-            0% { opacity: 1; }
-            50% { opacity: 0.6; }
-            100% { opacity: 1; }
-        }
-
-        @keyframes slideIn {
-            from {
-                opacity: 0;
-                transform: translateX(-20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        .metric h3 {
-            color: #1976d2;
-            margin-top: 0;
-            margin-bottom: 15px;
-            font-size: 1.2em;
-        }
-
-        #recovery-actions-container {
-            background: white;
+        .ai-status {
+            margin-top: 15px;
+            padding: 10px;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-top: 20px;
+            background: rgba(76, 175, 80, 0.1);
+            display: inline-flex;
+            align-items: center;
         }
 
-        .recovering {
-            animation: pulse 2s infinite;
-            padding: 8px;
-            margin: 5px 0;
-            background-color: rgba(255, 152, 0, 0.1);
-            border-radius: 4px;
+        .remediation-status {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background: var(--bg-secondary);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
 <body>
     <div class="dashboard-container">
         <div class="header">
-            <h1>🤖 AI System Monitor Dashboard</h1>
-            <p>Real-time monitoring and automatic recovery system</p>
+            <h1>AI System Monitor Dashboard</h1>
+            <p>Real-time system monitoring with ML-based failure prediction</p>
+            <div class="ai-status">
+                <span class="status-indicator status-healthy"></span>
+                AI Monitoring Active
+            </div>
         </div>
 
         <div class="metrics-grid">
@@ -267,204 +120,130 @@
                 <h3>CPU Usage</h3>
                 <div class="metric-value" id="cpu-usage">0%</div>
             </div>
+
             <div class="metric-card">
                 <h3>Memory Usage</h3>
                 <div class="metric-value" id="memory-usage">0%</div>
             </div>
+
             <div class="metric-card">
                 <h3>Disk Usage</h3>
                 <div class="metric-value" id="disk-usage">0%</div>
             </div>
+
             <div class="metric-card">
-                <h3>Health Score</h3>
-                <div class="metric-value" id="health-score">100%</div>
+                <h3>Failure Probability</h3>
+                <div class="metric-value" id="failure-prob">0%</div>
             </div>
         </div>
 
-        <div class="metric">
-            <h3>⚡ Fault Injection Controls</h3>
-            <div class="fault-controls">
-                <button onclick="injectFault('cpu_overload')">Simulate CPU Overload</button>
-                <button onclick="injectFault('memory_leak')">Simulate Memory Leak</button>
-                <button onclick="injectFault('disk_fill')">Simulate Disk Fill</button>
-            </div>
-            <div id="active-faults">
-                <h4>Active Faults:</h4>
-                <ul id="fault-list"></ul>
-            </div>
+        <div class="chart-container">
+            <canvas id="metricsChart"></canvas>
         </div>
 
-        <div class="metric">
-            <h3>🤖 AI Recovery Status</h3>
-            <div id="recovery-status" class="recovery-status">
-                No active recovery needed
-            </div>
-        </div>
-
-        <div class="metric" id="recovery-actions-container" style="display: none;">
-            <h3>🤖 AI Recovery Actions</h3>
-            <div class="recovery-steps">
-                <div class="recovery-progress"></div>
-                <div id="recovery-actions" class="action-list"></div>
-            </div>
-        </div>
-
-        <div class="metric">
-            <h3>📋 System Recommendations</h3>
-            <ul id="recommendations" class="recommendations"></ul>
+        <div class="remediation-status" id="remediation-status">
+            <h3>AI Remediation Status</h3>
+            <p id="remediation-message">No active remediation</p>
         </div>
     </div>
 
     <script>
-        function updateDashboard() {
+        let metricsChart;
+        const maxDataPoints = 30;
+        const chartData = {
+            labels: [],
+            datasets: [
+                {
+                    label: 'CPU Usage',
+                    data: [],
+                    borderColor: '#1976D2',
+                    fill: false
+                },
+                {
+                    label: 'Memory Usage',
+                    data: [],
+                    borderColor: '#4CAF50',
+                    fill: false
+                },
+                {
+                    label: 'Failure Probability',
+                    data: [],
+                    borderColor: '#F44336',
+                    fill: false
+                }
+            ]
+        };
+
+        function initializeChart() {
+            const ctx = document.getElementById('metricsChart').getContext('2d');
+            metricsChart = new Chart(ctx, {
+                type: 'line',
+                data: chartData,
+                options: {
+                    responsive: true,
+                    animation: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: {
+                                callback: value => `${value}%`
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function updateMetrics(data) {
+            // Update metric values
+            document.getElementById('cpu-usage').textContent = `${data.metrics.cpu_usage.toFixed(1)}%`;
+            document.getElementById('memory-usage').textContent = `${data.metrics.memory_usage.toFixed(1)}%`;
+            document.getElementById('disk-usage').textContent = `${data.metrics.disk_usage.toFixed(1)}%`;
+            document.getElementById('failure-prob').textContent = 
+                `${(data.prediction.failure_probability * 100).toFixed(1)}%`;
+
+            // Update remediation status
+            const remediationMsg = document.getElementById('remediation-message');
+            if (data.remediation_active) {
+                remediationMsg.textContent = "AI Remediation in Progress...";
+                remediationMsg.style.color = 'var(--warning-color)';
+            } else {
+                remediationMsg.textContent = "No Active Remediation";
+                remediationMsg.style.color = 'var(--text-secondary)';
+            }
+
+            // Update chart
+            const timestamp = new Date().toLocaleTimeString();
+            chartData.labels.push(timestamp);
+            chartData.datasets[0].data.push(data.metrics.cpu_usage);
+            chartData.datasets[1].data.push(data.metrics.memory_usage);
+            chartData.datasets[2].data.push(data.prediction.failure_probability * 100);
+
+            // Keep only last N data points
+            if (chartData.labels.length > maxDataPoints) {
+                chartData.labels.shift();
+                chartData.datasets.forEach(dataset => dataset.data.shift());
+            }
+
+            metricsChart.update();
+        }
+
+        function fetchMetrics() {
             fetch('/api/metrics')
                 .then(response => response.json())
                 .then(data => {
-                    updateMetricWithAnimation('cpu-usage', data.metrics.cpu_usage);
-                    updateMetricWithAnimation('memory-usage', data.metrics.memory_usage);
-                    updateMetricWithAnimation('disk-usage', data.metrics.disk_usage);
-                    updateMetricWithAnimation('health-score', data.health_score);
-
-                    const recList = document.getElementById('recommendations');
-                    recList.innerHTML = '';
-                    data.recommendations.forEach(rec => {
-                        const li = document.createElement('li');
-                        li.textContent = rec;
-                        if (rec.includes('CRITICAL')) {
-                            li.className = 'critical';
-                        }
-                        recList.appendChild(li);
-                    });
-
-                    const healthScore = document.getElementById('health-score');
-                    if (data.health_score < 60) {
-                        healthScore.style.color = '#f44336';
-                    } else if (data.health_score < 80) {
-                        healthScore.style.color = '#ff9800';
-                    } else {
-                        healthScore.style.color = '#4caf50';
-                    }
+                    updateMetrics(data);
                 })
-                .catch(error => console.error('Error:', error));
+                .catch(error => console.error('Error fetching metrics:', error));
         }
 
-        function updateMetricWithAnimation(elementId, value) {
-            const element = document.getElementById(elementId);
-            const currentValue = parseFloat(element.textContent);
-            const newValue = parseFloat(value);
-            
-            if (currentValue !== newValue) {
-                element.textContent = newValue.toFixed(1) + '%';
-                element.style.transition = 'color 0.3s';
-                element.style.color = newValue > 80 ? '#f44336' : '#333';
-            }
-        }
-
-        function injectFault(faultType) {
-            console.log('Injecting fault:', faultType);
-            fetch(`/api/inject-fault/${faultType}`)
-                .then(response => response.json())
-                .then(data => {
-                    console.log('Fault injection response:', data);
-                    updateActiveFaults();
-                })
-                .catch(error => console.error('Error injecting fault:', error));
-        }
-
-        function updateActiveFaults() {
-            fetch('/api/active-faults')
-                .then(response => response.json())
-                .then(data => {
-                    const faultList = document.getElementById('fault-list');
-                    faultList.innerHTML = '';
-                    Object.entries(data.active_faults).forEach(([fault, active]) => {
-                        if (active) {
-                            const li = document.createElement('li');
-                            li.textContent = fault.replace('_', ' ').toUpperCase();
-                            li.className = 'warning';
-                            faultList.appendChild(li);
-                        }
-                    });
-                })
-                .catch(error => console.error('Error:', error));
-        }
-
-        function updateRecoveryStatus() {
-            fetch('/api/recovery-status')
-                .then(response => response.json())
-                .then(data => {
-                    const statusDiv = document.getElementById('recovery-status');
-                    if (data.recovery_status && data.recovery_status.length > 0) {
-                        statusDiv.innerHTML = '<h4>🤖 AI Recovery in Progress:</h4>' +
-                            data.recovery_status.map(status => 
-                                `<div class="recovering">⚡ ${status}</div>`
-                            ).join('');
-                        statusDiv.classList.add('recovery-active');
-                    } else {
-                        statusDiv.innerHTML = '✅ No active recovery needed';
-                        statusDiv.classList.remove('recovery-active');
-                    }
-                })
-                .catch(error => console.error('Error:', error));
-        }
-
-        function updateRecoveryActions() {
-            fetch('/api/recovery-actions')
-                .then(response => response.json())
-                .then(data => {
-                    const container = document.getElementById('recovery-actions-container');
-                    const actionsList = document.getElementById('recovery-actions');
-                    
-                    if (data.recovery_actions && data.recovery_actions.length > 0) {
-                        container.style.display = 'block';
-                        
-                        // Calculate progress
-                        const completedSteps = data.recovery_actions.filter(
-                            action => action.status === 'complete'
-                        ).length;
-                        const progress = (completedSteps / data.recovery_actions.length) * 100;
-                        
-                        // Update progress bar
-                        const progressHtml = `
-                            <div class="recovery-progress">
-                                <div class="progress-indicator" style="height: ${progress}%"></div>
-                            </div>
-                        `;
-                        
-                        // Generate actions HTML
-                        const actionsHtml = data.recovery_actions.map(action => `
-                            <div class="recovery-action">
-                                <div class="action-step">${action.step}</div>
-                                <div class="action-content">
-                                    <div class="action-text">${action.action}</div>
-                                </div>
-                                <div class="action-status status-${action.status}">
-                                    ${action.status.replace('_', ' ').toUpperCase()}
-                                </div>
-                            </div>
-                        `).join('');
-                        
-                        actionsList.innerHTML = progressHtml + actionsHtml;
-                    } else {
-                        container.style.display = 'none';
-                    }
-                })
-                .catch(error => console.error('Error:', error));
-        }
-
-        // Update dashboard every 2 seconds
-        setInterval(() => {
-            updateDashboard();
-            updateActiveFaults();
-            updateRecoveryStatus();
-            updateRecoveryActions();
-        }, 2000);
-
-        // Initial update
-        updateDashboard();
-        updateActiveFaults();
-        updateRecoveryStatus();
-        updateRecoveryActions();
+        // Initialize
+        window.addEventListener('load', () => {
+            initializeChart();
+            // Fetch metrics every 2 seconds
+            setInterval(fetchMetrics, 2000);
+        });
     </script>
 </body>
 </html>

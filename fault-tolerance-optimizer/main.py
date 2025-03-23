@@ -1,113 +1,159 @@
-from flask import Flask, render_template, jsonify, request
-from app.monitor import SystemMonitor
-from app.analyzer import SystemAnalyzer
-from app.predictor import FailurePredictor
-from app.optimizer import FaultToleranceOptimizer
+from flask import Flask, render_template, jsonify
+from flask_cors import CORS
 import threading
 import time
-import os
+import psutil
+import logging
+from sklearn.ensemble import IsolationForest
+import numpy as np
+from datetime import datetime
 
-app = Flask(__name__, 
-    template_folder=os.path.abspath('templates'))  # Explicitly set template folder
+app = Flask(__name__)
+CORS(app)
 
-monitor = SystemMonitor()
-analyzer = SystemAnalyzer()
-predictor = FailurePredictor()
-optimizer = FaultToleranceOptimizer()
+# Configure basic logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Global variables for storing metrics
+metrics_history = []
+anomaly_detector = IsolationForest(contamination=0.1, random_state=42)
+active_remediation = False
+
+def get_system_metrics():
+    """Collect basic system metrics"""
+    try:
+        return {
+            'cpu_usage': psutil.cpu_percent(),
+            'memory_usage': psutil.virtual_memory().percent,
+            'disk_usage': psutil.disk_usage('/').percent,
+            'timestamp': time.time()
+        }
+    except Exception as e:
+        logger.error(f"Error collecting metrics: {e}")
+        return None
+
+def predict_failures(metrics_history):
+    """Basic ML-based failure prediction"""
+    if len(metrics_history) < 2:
+        return {'failure_probability': 0.0}
+        
+    try:
+        # Extract features for ML
+        features = [[m['cpu_usage'], m['memory_usage'], m['disk_usage']] 
+                   for m in metrics_history]
+        
+        # Fit and predict
+        anomaly_detector.fit(features)
+        scores = anomaly_detector.score_samples(features)
+        
+        # Convert scores to probability (higher score = more likely to fail)
+        latest_score = scores[-1]
+        probability = 1 - (latest_score - min(scores)) / (max(scores) - min(scores))
+        
+        return {'failure_probability': float(probability)}
+        
+    except Exception as e:
+        logger.error(f"Prediction error: {e}")
+        return {'failure_probability': 0.0}
+
+def auto_remediate(metrics):
+    """Simple AI remediation based on thresholds"""
+    global active_remediation
+    
+    if active_remediation:
+        return
+        
+    try:
+        if metrics['cpu_usage'] > 90 or metrics['memory_usage'] > 90:
+            active_remediation = True
+            logger.info("Starting automatic remediation...")
+            
+            # Simulate remediation action
+            time.sleep(2)
+            
+            active_remediation = False
+            logger.info("Remediation completed")
+            
+    except Exception as e:
+        logger.error(f"Remediation error: {e}")
+        active_remediation = False
 
 def background_monitoring():
+    """Background thread for system monitoring"""
     while True:
         try:
-            metrics = monitor.get_detailed_metrics()
-            if 'error' not in metrics:
-                analyzer.analyze_metrics(metrics)
+            # Collect current metrics
+            metrics = get_system_metrics()
+            if metrics:
+                metrics_history.append(metrics)
+                
+                # Keep last 60 readings
+                if len(metrics_history) > 60:
+                    metrics_history.pop(0)
+                
+                # Get ML predictions
+                prediction = predict_failures(metrics_history)
+                
+                # Log status
+                logger.info(
+                    f"System Status - "
+                    f"CPU: {metrics['cpu_usage']}% | "
+                    f"MEM: {metrics['memory_usage']}% | "
+                    f"Failure Prob: {prediction['failure_probability']:.2f}"
+                )
+                
+                # Auto-remediate if necessary
+                if prediction['failure_probability'] > 0.8:
+                    auto_remediate(metrics)
+                    
             time.sleep(2)
+            
         except Exception as e:
-            print(f"Monitoring error: {e}")
+            logger.error(f"Monitoring error: {e}")
+            time.sleep(5)
 
 @app.route('/')
-def dashboard():
-    try:
-        return render_template('dashboard.html')
-    except Exception as e:
-        print(f"Error rendering template: {e}")
-        return f"Error loading dashboard: {str(e)}", 500
+def home():
+    return render_template('dashboard.html')
 
 @app.route('/api/metrics')
 def get_metrics():
+    """API endpoint for current metrics and predictions"""
     try:
-        metrics = monitor.get_detailed_metrics()
-        is_anomaly = analyzer.analyze_metrics(metrics) if 'error' not in metrics else True
-        predictions = predictor.predict_failures(analyzer.metrics_history)
-        recommendations = optimizer.generate_recommendations(predictions, metrics)
+        current_metrics = get_system_metrics()
+        if not current_metrics:
+            return jsonify({'error': 'Failed to collect metrics'}), 500
+            
+        prediction = predict_failures(metrics_history)
         
         return jsonify({
-            'metrics': metrics,
-            'health_score': analyzer.get_system_health_score(),
-            'is_anomaly': is_anomaly,
-            'predictions': predictions,
-            'recommendations': recommendations
+            'metrics': current_metrics,
+            'prediction': prediction,
+            'remediation_active': active_remediation
         })
-    except Exception as e:
-        print(f"Error in get_metrics: {e}")
-        return jsonify({'error': str(e)}), 500
-
-@app.route('/api/inject-fault/<fault_type>')
-def inject_fault(fault_type):
-    try:
-        duration = request.args.get('duration', 30, type=int)
-        success = monitor.inject_fault(fault_type, duration)
         
-        if success:
-            return jsonify({
-                'status': 'success',
-                'message': f'Injected fault: {fault_type}, duration: {duration}s'
-            })
-        else:
-            return jsonify({
-                'status': 'error',
-                'message': f'Unknown fault type: {fault_type}'
-            }), 400
     except Exception as e:
-        print(f"Error in inject_fault: {e}")
+        logger.error(f"API error: {e}")
         return jsonify({'error': str(e)}), 500
 
-@app.route('/api/active-faults')
-def get_active_faults():
-    try:
-        return jsonify({
-            'active_faults': monitor.get_active_faults()
-        })
-    except Exception as e:
-        print(f"Error in get_active_faults: {e}")
-        return jsonify({'error': str(e)}), 500
-    
-@app.route('/api/recovery-status')
-def get_recovery_status():
-    try:
-        return jsonify({
-            'recovery_status': monitor.fault_injector.get_recovery_status()
-        })
-    except Exception as e:
-        print(f"Error in get_recovery_status: {e}")
-        return jsonify({'error': str(e)}), 500
-    
-@app.route('/api/recovery-actions')
-def get_recovery_actions():
-    try:
-        return jsonify({
-            'recovery_actions': monitor.fault_injector.get_recovery_actions()
-        })
-    except Exception as e:
-        print(f"Error in get_recovery_actions: {e}")
-        return jsonify({'error': str(e)}), 500
-
+@app.route('/api/health')
+def health_check():
+    """Basic health check endpoint"""
+    return jsonify({'status': 'healthy'})
 
 if __name__ == '__main__':
     try:
-        monitoring_thread = threading.Thread(target=background_monitoring, daemon=True)
+        # Start background monitoring thread
+        monitoring_thread = threading.Thread(
+            target=background_monitoring, 
+            daemon=True
+        )
         monitoring_thread.start()
-        print("Starting server... Access the dashboard at http://localhost:5000")
+        
+        # Start Flask server
+        logger.info("Starting server... Access dashboard at http://localhost:5000")
         app.run(debug=True, host='0.0.0.0', port=5000)
+        
     except Exception as e:
-        print(f"Error starting server: {e}")
+        logger.error(f"Server error: {e}")

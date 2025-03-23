@@ -1,0 +1,1395 @@
+2025-03-23 05:08:47,631 - SystemMonitor - INFO - Enhanced monitoring thread started
+2025-03-23 05:08:47,739 - SystemMonitor - INFO - System baselines initialized
+2025-03-23 05:08:47,739 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:08:47,740 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:08:47,740 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:08:47,740 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:08:51,440 - SystemMonitor - INFO - Enhanced monitoring thread started
+2025-03-23 05:08:51,549 - SystemMonitor - INFO - System baselines initialized
+2025-03-23 05:08:51,548 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:08:51,549 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:08:51,549 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:08:51,549 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:11:49,280 - SystemMonitor - INFO - Enhanced monitoring thread started
+2025-03-23 05:11:49,386 - SystemMonitor - INFO - System baselines initialized
+2025-03-23 05:11:49,387 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:11:49,387 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:49,387 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:11:49,387 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:11:49,387 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:11:49,388 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:11:49,495 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:49,590 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:49,593 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:11:49,594 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:49,594 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:49,594 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:49,594 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:11:49,594 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:11:49,594 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:49,594 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:11:49,596 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.114:5000
+2025-03-23 05:11:49,596 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 05:11:49,597 - werkzeug - INFO -  * Restarting with stat
+2025-03-23 05:11:50,054 - SystemMonitor - INFO - Enhanced monitoring thread started
+2025-03-23 05:11:50,163 - SystemMonitor - INFO - System baselines initialized
+2025-03-23 05:11:50,163 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:50,163 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:11:50,163 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:11:50,163 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:11:50,163 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:11:50,164 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:11:50,179 - werkzeug - WARNING -  * Debugger is active!
+2025-03-23 05:11:50,185 - werkzeug - INFO -  * Debugger PIN: 963-119-184
+2025-03-23 05:11:50,271 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:50,363 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:50,366 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 16.7%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:11:50,366 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:50,366 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:50,366 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:50,366 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:11:50,366 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:11:50,366 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:50,366 - __main__ - INFO - System Status - CPU: 16.7% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:11:50,500 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:50,500 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:11:51,276 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:51,277 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:11:51,612 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:51,613 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:11:51,710 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:51,808 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:51,811 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:11:51,811 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:51,811 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:51,811 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:51,811 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:11:51,811 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:11:52,390 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:52,391 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:11:52,479 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:52,581 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:52,584 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 12.2%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:11:52,584 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:52,584 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:52,584 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:52,584 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:11:52,584 - __main__ - INFO - System Status - CPU: 12.2% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:11:52,724 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:52,724 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:11:53,505 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:53,505 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:11:53,836 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:53,836 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:11:53,926 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:11:54,035 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:54,039 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 8.4%
+Memory Usage: 72.1%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:11:54,039 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:54,039 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:54,039 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:11:54,039 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.81
+2025-03-23 05:11:54,039 - __main__ - INFO - System Status - CPU: 8.4% | MEM: 72.1% | DISK: 3.6% | Failure Prob: 0.81 | AI Active: False
+2025-03-23 05:14:34,645 - SystemMonitor - INFO - Enhanced monitoring thread started
+2025-03-23 05:14:34,747 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:14:34,747 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_check_critical_conditions'
+2025-03-23 05:14:34,751 - SystemMonitor - INFO - System baselines initialized
+2025-03-23 05:14:34,751 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:14:34,751 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:14:34,751 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:14:34,752 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:14:34,780 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.114:5000
+2025-03-23 05:14:34,780 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 05:14:34,780 - werkzeug - INFO -  * Restarting with stat
+2025-03-23 05:14:34,856 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:14:34,944 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:14:34,947 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 26.3%
+Memory Usage: 72.1%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:14:34,947 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:14:34,947 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:14:34,947 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:14:34,947 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:14:34,947 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:14:34,948 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:14:34,948 - __main__ - INFO - System Status - CPU: 26.3% | MEM: 72.1% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:14:35,272 - SystemMonitor - INFO - Enhanced monitoring thread started
+2025-03-23 05:14:35,379 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:14:35,379 - SystemMonitor - INFO - System baselines initialized
+2025-03-23 05:14:35,379 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_check_critical_conditions'
+2025-03-23 05:14:35,380 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:14:35,380 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:14:35,380 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:14:35,381 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:14:35,395 - werkzeug - WARNING -  * Debugger is active!
+2025-03-23 05:14:35,400 - werkzeug - INFO -  * Debugger PIN: 963-119-184
+2025-03-23 05:14:35,487 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:14:35,580 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:14:35,583 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 72.1%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:14:35,584 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:14:35,584 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:14:35,584 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:14:35,584 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:14:35,584 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:14:35,584 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:14:35,584 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 72.1% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:14:35,861 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:14:35,862 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_check_critical_conditions'
+2025-03-23 05:14:36,494 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:14:36,495 - SystemMonitor - INFO - Significant cpu_usage change detected: 4.30%
+2025-03-23 05:14:36,495 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_check_critical_conditions'
+2025-03-23 05:21:00,576 - SystemMonitor - INFO - Enhanced monitoring thread started
+2025-03-23 05:21:00,682 - SystemMonitor - INFO - System baselines initialized
+2025-03-23 05:21:00,683 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:21:00,684 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:21:00,684 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:21:00,684 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:21:00,684 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:21:00,685 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:21:00,714 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.114:5000
+2025-03-23 05:21:00,714 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 05:21:00,714 - werkzeug - INFO -  * Restarting with stat
+2025-03-23 05:21:00,791 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:21:00,878 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:21:00,881 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:21:00,881 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:21:00,881 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:21:00,881 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:21:00,881 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:21:00,881 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:21:00,882 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:21:00,882 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:21:01,172 - SystemMonitor - INFO - Enhanced monitoring thread started
+2025-03-23 05:21:01,281 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:21:01,282 - SystemMonitor - INFO - System baselines initialized
+2025-03-23 05:21:01,282 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:21:01,282 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:21:01,282 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:21:01,282 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:21:01,283 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:21:01,298 - werkzeug - WARNING -  * Debugger is active!
+2025-03-23 05:21:01,303 - werkzeug - INFO -  * Debugger PIN: 963-119-184
+2025-03-23 05:21:01,390 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:21:01,486 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:21:01,489 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 14.1%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:21:01,489 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:21:01,489 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:21:01,489 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:21:01,489 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:21:01,489 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:21:01,490 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:21:01,490 - __main__ - INFO - System Status - CPU: 14.1% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:21:01,795 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:21:01,795 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:21:02,398 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:21:02,399 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:21:02,906 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:21:02,906 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_metric_trends'
+2025-03-23 05:21:02,994 - SystemMonitor - ERROR - Error collecting process metrics: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:21:03,107 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:21:03,110 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 7.6%
+Memory Usage: 72.1%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:21:03,110 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:21:03,110 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:21:03,110 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:21:03,110 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:21:03,110 - __main__ - INFO - System Status - CPU: 7.6% | MEM: 72.1% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:27:54,563 - SystemMonitor - INFO - Enhanced monitoring thread started
+2025-03-23 05:27:54,671 - SystemMonitor - INFO - System baselines initialized
+2025-03-23 05:27:54,677 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:27:54,684 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:27:54,690 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:27:54,695 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:27:54,696 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:27:54,722 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.114:5000
+2025-03-23 05:27:54,722 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 05:27:54,723 - werkzeug - INFO -  * Restarting with stat
+2025-03-23 05:27:54,896 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:54,899 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 72.3%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:27:54,899 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:54,899 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:54,899 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:54,899 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:27:54,899 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:27:54,900 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:27:54,900 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 72.3% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:27:55,189 - SystemMonitor - INFO - Enhanced monitoring thread started
+2025-03-23 05:27:55,301 - SystemMonitor - INFO - System baselines initialized
+2025-03-23 05:27:55,307 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:27:55,313 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:27:55,320 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:27:55,322 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:27:55,322 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:27:55,334 - werkzeug - WARNING -  * Debugger is active!
+2025-03-23 05:27:55,340 - werkzeug - INFO -  * Debugger PIN: 963-119-184
+2025-03-23 05:27:55,530 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:55,533 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 72.4%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:27:55,534 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:55,534 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:55,534 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:55,534 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:27:55,534 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:27:55,534 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:27:55,534 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 72.4% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:27:55,832 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:27:56,461 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:27:56,978 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:27:57,112 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:57,115 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 13.6%
+Memory Usage: 72.5%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:27:57,115 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:57,115 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:57,115 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:57,115 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:27:57,115 - __main__ - INFO - System Status - CPU: 13.6% | MEM: 72.5% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:27:57,596 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:27:57,746 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:57,749 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 9.9%
+Memory Usage: 72.5%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:27:57,750 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:57,750 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:57,750 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:57,750 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:27:57,750 - __main__ - INFO - System Status - CPU: 9.9% | MEM: 72.5% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:27:58,107 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:27:58,720 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:27:59,255 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:27:59,355 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:59,358 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 9.0%
+Memory Usage: 71.8%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:27:59,359 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:59,359 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:59,359 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:59,359 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.74
+2025-03-23 05:27:59,359 - __main__ - INFO - System Status - CPU: 9.0% | MEM: 71.8% | DISK: 3.6% | Failure Prob: 0.74 | AI Active: False
+2025-03-23 05:27:59,865 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:27:59,969 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:59,972 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 26.4%
+Memory Usage: 71.8%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:27:59,972 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:59,972 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:59,972 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:27:59,972 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:27:59,972 - __main__ - INFO - System Status - CPU: 26.4% | MEM: 71.8% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:28:00,413 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:01,011 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:01,593 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:01,603 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 1.3%
+Memory Usage: 72.0%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:01,608 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:01,607 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:01,608 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:01,608 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:01,608 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.74
+2025-03-23 05:28:01,608 - __main__ - INFO - System Status - CPU: 1.3% | MEM: 72.0% | DISK: 3.6% | Failure Prob: 0.74 | AI Active: False
+2025-03-23 05:28:02,216 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:02,225 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 7.6%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:02,221 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:02,225 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:02,225 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:02,225 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:02,225 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.74
+2025-03-23 05:28:02,225 - __main__ - INFO - System Status - CPU: 7.6% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.74 | AI Active: False
+2025-03-23 05:28:02,751 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:03,364 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:03,829 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:03,832 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:03,832 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:03,832 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:03,833 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:03,833 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:28:03,833 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:28:03,901 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:04,453 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:04,456 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 6.0%
+Memory Usage: 72.0%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:04,457 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:04,457 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:04,457 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:04,457 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:28:04,457 - __main__ - INFO - System Status - CPU: 6.0% | MEM: 72.0% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:28:04,525 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:05,043 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:05,663 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:06,053 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:06,056 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 72.4%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:06,056 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:06,056 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:06,056 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:06,056 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:28:06,056 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 72.4% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:28:06,173 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:06,686 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:06,690 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 20.6%
+Memory Usage: 72.4%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:06,691 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:06,691 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:06,691 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:06,691 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:28:06,691 - __main__ - INFO - System Status - CPU: 20.6% | MEM: 72.4% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:28:06,788 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:07,308 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:07,927 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:08,296 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:08,299 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 9.5%
+Memory Usage: 72.2%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:08,299 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:08,299 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:08,299 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:08,299 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:08,299 - __main__ - INFO - System Status - CPU: 9.5% | MEM: 72.2% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:28:08,436 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:08,923 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:08,927 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 10.6%
+Memory Usage: 72.2%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:08,927 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:08,927 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:08,927 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:08,927 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:08,927 - __main__ - INFO - System Status - CPU: 10.6% | MEM: 72.2% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:28:09,049 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:09,573 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:10,179 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:10,537 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:10,540 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 72.1%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:10,541 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:10,541 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:10,541 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:10,541 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:10,541 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 72.1% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:28:10,703 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:11,152 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:11,155 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 72.1%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:11,155 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:11,155 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:11,155 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:11,155 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:11,155 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 72.1% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:28:11,303 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:11,846 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:12,449 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:12,774 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:12,777 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 12.5%
+Memory Usage: 72.0%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:12,777 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:12,777 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:12,777 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:12,777 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:12,777 - __main__ - INFO - System Status - CPU: 12.5% | MEM: 72.0% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:28:12,974 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:13,381 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:13,385 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 18.1%
+Memory Usage: 72.0%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:13,385 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:13,385 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:13,385 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:13,385 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:13,385 - __main__ - INFO - System Status - CPU: 18.1% | MEM: 72.0% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:28:13,575 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:14,099 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:14,709 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:15,003 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:15,006 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 18.6%
+Memory Usage: 72.2%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:15,007 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:15,007 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:15,007 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:15,007 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:15,007 - __main__ - INFO - System Status - CPU: 18.6% | MEM: 72.2% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:28:15,224 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:15,606 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:15,610 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 13.3%
+Memory Usage: 72.1%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:15,610 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:15,610 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:15,610 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:15,610 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:15,610 - __main__ - INFO - System Status - CPU: 13.3% | MEM: 72.1% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:28:15,831 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:16,371 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:16,962 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:17,229 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:17,232 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 11.1%
+Memory Usage: 72.3%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:17,232 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:17,232 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:17,232 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:17,232 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:28:17,232 - __main__ - INFO - System Status - CPU: 11.1% | MEM: 72.3% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:28:17,494 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:17,556 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:28:17] "[33mGET /api/active-faults HTTP/1.1[0m" 404 -
+2025-03-23 05:28:17,685 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:17,689 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:28:17] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:28:17,856 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:17,860 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 20.0%
+Memory Usage: 72.3%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:17,860 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:17,860 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:17,860 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:17,860 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:17,860 - __main__ - INFO - System Status - CPU: 20.0% | MEM: 72.3% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:28:18,091 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:18,613 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:19,219 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:19,451 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:19,454 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 11.4%
+Memory Usage: 72.6%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:19,455 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:19,455 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:19,455 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:19,455 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:28:19,455 - __main__ - INFO - System Status - CPU: 11.4% | MEM: 72.6% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:28:19,750 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:20,085 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:20,088 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 13.8%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:20,088 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:20,088 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:20,088 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:20,088 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:20,088 - __main__ - INFO - System Status - CPU: 13.8% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:28:20,352 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:20,887 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:21,475 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:21,661 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:21,665 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 22.4%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:21,665 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:21,666 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:21,666 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:21,666 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:21,666 - __main__ - INFO - System Status - CPU: 22.4% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:28:22,031 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:22,316 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:22,319 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 14.5%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:22,319 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:22,319 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:22,319 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:22,319 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:22,319 - __main__ - INFO - System Status - CPU: 14.5% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:28:22,616 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:23,176 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:23,746 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:23,877 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:23,881 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 11.9%
+Memory Usage: 71.1%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:23,881 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:23,881 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:23,881 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:23,881 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.71
+2025-03-23 05:28:23,881 - __main__ - INFO - System Status - CPU: 11.9% | MEM: 71.1% | DISK: 3.6% | Failure Prob: 0.71 | AI Active: False
+2025-03-23 05:28:24,320 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:24,547 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:24,550 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:24,551 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:24,551 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:24,551 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:24,551 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:24,551 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:28:24,885 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:25,461 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:26,027 - SystemMonitor - ERROR - Error in monitoring loop: 'SystemMonitor' object has no attribute '_update_stability_score'
+2025-03-23 05:28:26,127 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:26,131 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 18.5%
+Memory Usage: 72.1%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:28:26,132 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:26,132 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:26,132 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:28:26,132 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:28:26,132 - __main__ - INFO - System Status - CPU: 18.5% | MEM: 72.1% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:30:33,261 - SystemMonitor - INFO - SystemMonitor initialized successfully
+2025-03-23 05:30:33,261 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:30:33,261 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:30:33,261 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:30:33,262 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:30:33,285 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.114:5000
+2025-03-23 05:30:33,285 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 05:30:33,286 - werkzeug - INFO -  * Restarting with stat
+2025-03-23 05:30:33,452 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:33,455 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 24.7%
+Memory Usage: 72.5%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:30:33,456 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:33,456 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:33,456 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:33,456 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:30:33,456 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:30:33,456 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:30:33,456 - __main__ - INFO - System Status - CPU: 24.7% | MEM: 72.5% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:30:33,760 - SystemMonitor - INFO - SystemMonitor initialized successfully
+2025-03-23 05:30:33,760 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:30:33,760 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:30:33,760 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:30:33,761 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:30:33,774 - werkzeug - WARNING -  * Debugger is active!
+2025-03-23 05:30:33,779 - werkzeug - INFO -  * Debugger PIN: 963-119-184
+2025-03-23 05:30:33,954 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:33,957 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 11.6%
+Memory Usage: 72.6%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:30:33,957 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:33,957 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:33,957 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:33,957 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:30:33,957 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:30:33,957 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:30:33,957 - __main__ - INFO - System Status - CPU: 11.6% | MEM: 72.6% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:30:35,676 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:35,679 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 7.1%
+Memory Usage: 72.0%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:30:35,679 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:35,679 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:35,679 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:35,679 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:30:35,679 - __main__ - INFO - System Status - CPU: 7.1% | MEM: 72.0% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:30:36,182 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:36,185 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 13.4%
+Memory Usage: 71.8%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:30:36,186 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:36,186 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:36,186 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:36,186 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.90
+2025-03-23 05:30:36,186 - __main__ - INFO - System Status - CPU: 13.4% | MEM: 71.8% | DISK: 3.6% | Failure Prob: 0.90 | AI Active: False
+2025-03-23 05:30:37,898 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:37,901 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 14.0%
+Memory Usage: 72.3%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:30:37,902 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:37,902 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:37,902 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:37,902 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.74
+2025-03-23 05:30:37,902 - __main__ - INFO - System Status - CPU: 14.0% | MEM: 72.3% | DISK: 3.6% | Failure Prob: 0.74 | AI Active: False
+2025-03-23 05:30:38,403 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:38,406 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 13.6%
+Memory Usage: 72.4%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:30:38,406 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:38,406 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:38,406 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:38,406 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.81
+2025-03-23 05:30:38,406 - __main__ - INFO - System Status - CPU: 13.6% | MEM: 72.4% | DISK: 3.6% | Failure Prob: 0.81 | AI Active: False
+2025-03-23 05:30:40,120 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:40,123 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 3.7%
+Memory Usage: 72.4%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:30:40,123 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:40,123 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:40,123 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:30:40,123 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.75
+2025-03-23 05:30:40,123 - __main__ - INFO - System Status - CPU: 3.7% | MEM: 72.4% | DISK: 3.6% | Failure Prob: 0.75 | AI Active: False
+2025-03-23 05:31:15,785 - SystemMonitor - INFO - SystemMonitor initialized successfully
+2025-03-23 05:31:15,785 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:31:15,785 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:31:15,785 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:31:15,786 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:31:15,807 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.114:5000
+2025-03-23 05:31:15,807 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 05:31:15,808 - werkzeug - INFO -  * Restarting with stat
+2025-03-23 05:31:15,982 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:15,985 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 72.2%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:15,985 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:15,985 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:15,985 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:15,985 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.72
+2025-03-23 05:31:15,985 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:31:15,986 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:31:15,986 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 72.2% | DISK: 3.6% | Failure Prob: 0.72 | AI Active: False
+2025-03-23 05:31:16,287 - SystemMonitor - INFO - SystemMonitor initialized successfully
+2025-03-23 05:31:16,287 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:31:16,287 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:31:16,287 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:31:16,288 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:31:16,301 - werkzeug - WARNING -  * Debugger is active!
+2025-03-23 05:31:16,305 - werkzeug - INFO -  * Debugger PIN: 963-119-184
+2025-03-23 05:31:16,477 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:16,480 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 31.2%
+Memory Usage: 72.6%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:16,481 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:16,481 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:16,481 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:16,481 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:31:16,481 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:31:16,481 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:31:16,481 - __main__ - INFO - System Status - CPU: 31.2% | MEM: 72.6% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:31:17,555 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:31:17] "[33mGET /api/active-faults HTTP/1.1[0m" 404 -
+2025-03-23 05:31:17,660 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:17,663 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:31:17] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:31:18,182 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:18,185 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 22.7%
+Memory Usage: 72.8%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:18,186 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:18,186 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:18,186 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:18,186 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:31:18,186 - __main__ - INFO - System Status - CPU: 22.7% | MEM: 72.8% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:31:18,680 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:18,684 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 20.7%
+Memory Usage: 73.0%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:18,684 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:18,684 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:18,684 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:18,684 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:31:18,684 - __main__ - INFO - System Status - CPU: 20.7% | MEM: 73.0% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:31:18,741 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:31:18] "GET / HTTP/1.1" 200 -
+2025-03-23 05:31:20,383 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:20,386 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 20.9%
+Memory Usage: 72.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:20,386 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:20,386 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:20,386 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:20,386 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.76
+2025-03-23 05:31:20,386 - __main__ - INFO - System Status - CPU: 20.9% | MEM: 72.9% | DISK: 3.6% | Failure Prob: 0.76 | AI Active: False
+2025-03-23 05:31:20,871 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:20,874 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 21.4%
+Memory Usage: 72.6%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:20,875 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:20,875 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:20,875 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:20,875 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.79
+2025-03-23 05:31:20,875 - __main__ - INFO - System Status - CPU: 21.4% | MEM: 72.6% | DISK: 3.6% | Failure Prob: 0.79 | AI Active: False
+2025-03-23 05:31:20,880 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:20,880 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:31:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:31:20,993 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:20,993 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:31:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:31:22,611 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:22,614 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 9.3%
+Memory Usage: 72.3%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:22,614 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:22,614 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:22,614 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:22,614 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:31:22,614 - __main__ - INFO - System Status - CPU: 9.3% | MEM: 72.3% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:31:22,885 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:22,886 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:31:22] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:31:23,003 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:23,031 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:31:23] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:31:23,106 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:23,109 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:23,110 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:23,110 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:23,110 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:23,110 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.76
+2025-03-23 05:31:23,110 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.76 | AI Active: False
+2025-03-23 05:31:24,838 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:24,841 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 6.1%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:24,842 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:24,842 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:24,842 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:24,842 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:31:24,842 - __main__ - INFO - System Status - CPU: 6.1% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:31:24,880 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:24,880 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:31:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:31:24,989 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:24,989 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:31:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:31:25,338 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:25,341 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 71.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:25,342 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:25,342 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:25,342 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:25,342 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.76
+2025-03-23 05:31:25,342 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 71.9% | DISK: 3.6% | Failure Prob: 0.76 | AI Active: False
+2025-03-23 05:31:26,883 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:26,885 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:31:26] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:31:26,990 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:26,991 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:31:26] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:31:27,061 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:27,064 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 8.3%
+Memory Usage: 72.2%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:27,064 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:27,064 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:27,064 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:27,064 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:31:27,064 - __main__ - INFO - System Status - CPU: 8.3% | MEM: 72.2% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:31:27,565 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:27,568 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 72.3%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:27,568 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:27,568 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:27,568 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:27,568 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.75
+2025-03-23 05:31:27,568 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 72.3% | DISK: 3.6% | Failure Prob: 0.75 | AI Active: False
+2025-03-23 05:31:28,880 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:28,881 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:31:28] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:31:28,986 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:28,988 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:31:28] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:31:29,289 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:29,292 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 12.0%
+Memory Usage: 72.4%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:29,293 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:29,293 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:29,293 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:29,293 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:31:29,293 - __main__ - INFO - System Status - CPU: 12.0% | MEM: 72.4% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:31:29,794 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:29,797 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 4.8%
+Memory Usage: 72.4%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:31:29,798 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:29,798 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:29,798 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:31:29,798 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.74
+2025-03-23 05:31:29,798 - __main__ - INFO - System Status - CPU: 4.8% | MEM: 72.4% | DISK: 3.6% | Failure Prob: 0.74 | AI Active: False
+2025-03-23 05:35:30,594 - SystemMonitor - INFO - SystemMonitor initialized successfully
+2025-03-23 05:35:30,594 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:35:30,594 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:35:30,595 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:35:30,595 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:35:30,620 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.114:5000
+2025-03-23 05:35:30,621 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 05:35:30,621 - werkzeug - INFO -  * Restarting with stat
+2025-03-23 05:35:30,782 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:30,785 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 22.2%
+Memory Usage: 73.2%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:35:30,786 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:30,786 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:30,786 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:30,786 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:35:30,786 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:35:30,786 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:35:30,786 - __main__ - INFO - System Status - CPU: 22.2% | MEM: 73.2% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:35:31,086 - SystemMonitor - INFO - SystemMonitor initialized successfully
+2025-03-23 05:35:31,086 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:35:31,086 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:35:31,086 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:35:31,086 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:35:31,098 - werkzeug - WARNING -  * Debugger is active!
+2025-03-23 05:35:31,103 - werkzeug - INFO -  * Debugger PIN: 963-119-184
+2025-03-23 05:35:31,214 - FaultToleranceOptimizer - ERROR - Error calculating health score: This StandardScaler instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:31,284 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:31,288 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 23.3%
+Memory Usage: 73.1%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:35:31,288 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:31,288 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:31,288 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:31,288 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:35:31,288 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:35:31,289 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:35:31] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:35:31,289 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:35:31,289 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:35:31,289 - __main__ - INFO - System Status - CPU: 23.3% | MEM: 73.1% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:35:31,397 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:31,398 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:35:31,398 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:35:31] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:35:32,885 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:32,885 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:35:32,886 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:35:32] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:35:32,996 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:32,996 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:35:32,996 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:35:32] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:35:33,009 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:33,012 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 8.5%
+Memory Usage: 72.8%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:35:33,012 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:33,012 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:33,012 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:33,012 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:35:33,012 - __main__ - INFO - System Status - CPU: 8.5% | MEM: 72.8% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:35:33,511 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:33,514 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 72.8%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:35:33,514 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:33,515 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:33,515 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:33,515 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:35:33,515 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 72.8% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:35:34,884 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:34,884 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:35:34,885 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:35:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:35:34,998 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:34,998 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:35:34,999 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:35:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:35:35,226 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:35,229 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 13.3%
+Memory Usage: 72.8%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:35:35,229 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:35,229 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:35,229 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:35,230 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.75
+2025-03-23 05:35:35,230 - __main__ - INFO - System Status - CPU: 13.3% | MEM: 72.8% | DISK: 3.6% | Failure Prob: 0.75 | AI Active: False
+2025-03-23 05:35:35,741 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:35,744 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 12.2%
+Memory Usage: 72.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:35:35,744 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:35,744 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:35,744 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:35,744 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.74
+2025-03-23 05:35:35,744 - __main__ - INFO - System Status - CPU: 12.2% | MEM: 72.9% | DISK: 3.6% | Failure Prob: 0.74 | AI Active: False
+2025-03-23 05:35:36,885 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:36,885 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:35:36,886 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:35:36] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:35:36,994 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:36,994 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:35:36,995 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:35:36] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:35:37,455 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:37,458 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 72.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:35:37,459 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:37,459 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:37,459 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:37,459 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.76
+2025-03-23 05:35:37,459 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 72.9% | DISK: 3.6% | Failure Prob: 0.76 | AI Active: False
+2025-03-23 05:35:37,973 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:37,976 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 14.1%
+Memory Usage: 72.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:35:37,976 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:37,976 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:37,976 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:37,976 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:35:37,976 - __main__ - INFO - System Status - CPU: 14.1% | MEM: 72.9% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:35:38,881 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:38,881 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:35:38,881 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:35:38] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:35:38,989 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:38,989 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:35:38,989 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:35:38] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:35:39,682 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:39,685 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 6.0%
+Memory Usage: 72.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:35:39,685 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:39,685 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:39,685 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:39,685 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.75
+2025-03-23 05:35:39,685 - __main__ - INFO - System Status - CPU: 6.0% | MEM: 72.9% | DISK: 3.6% | Failure Prob: 0.75 | AI Active: False
+2025-03-23 05:35:40,199 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:40,202 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 17.5%
+Memory Usage: 72.8%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:35:40,203 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:40,203 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:40,203 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:40,203 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:35:40,203 - __main__ - INFO - System Status - CPU: 17.5% | MEM: 72.8% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:35:40,884 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:40,884 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:35:40,885 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:35:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:35:40,998 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:35:40,998 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:35:40,999 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:35:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:36:43,283 - SystemMonitor - INFO - SystemMonitor initialized successfully
+2025-03-23 05:36:43,283 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:36:43,283 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:36:43,283 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:36:43,284 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:36:43,303 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.114:5000
+2025-03-23 05:36:43,303 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-23 05:36:43,304 - werkzeug - INFO -  * Restarting with stat
+2025-03-23 05:36:43,475 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:43,478 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 24.7%
+Memory Usage: 73.1%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:36:43,479 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:43,479 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:43,479 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:43,479 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:36:43,479 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:36:43,479 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:36:43,479 - __main__ - INFO - System Status - CPU: 24.7% | MEM: 73.1% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:36:43,796 - SystemMonitor - INFO - SystemMonitor initialized successfully
+2025-03-23 05:36:43,796 - SystemAnalyzer - INFO - Initializing new analyzer models
+2025-03-23 05:36:43,796 - FailurePredictor - INFO - Initializing new predictor models
+2025-03-23 05:36:43,796 - FaultToleranceOptimizer - INFO - Initializing new optimizer models
+2025-03-23 05:36:43,796 - __main__ - INFO - Starting server with ML/AI-enhanced monitoring... Access the dashboard at http://localhost:5000
+2025-03-23 05:36:43,807 - werkzeug - WARNING -  * Debugger is active!
+2025-03-23 05:36:43,812 - werkzeug - INFO -  * Debugger PIN: 963-119-184
+2025-03-23 05:36:43,985 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:43,988 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 28.9%
+Memory Usage: 73.3%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:36:43,988 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:43,988 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:43,988 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:43,988 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.73
+2025-03-23 05:36:43,988 - FaultToleranceOptimizer - INFO - Starting memory optimization
+2025-03-23 05:36:43,989 - FaultToleranceOptimizer - ERROR - Error in memory optimization: '>' not supported between instances of 'NoneType' and 'float'
+2025-03-23 05:36:43,989 - __main__ - INFO - System Status - CPU: 28.9% | MEM: 73.3% | DISK: 3.6% | Failure Prob: 0.73 | AI Active: False
+2025-03-23 05:36:44,884 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:44,889 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:36:44,890 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:36:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:36:45,001 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:45,002 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:36:45,003 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:36:45] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:36:45,704 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:45,707 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 15.3%
+Memory Usage: 73.4%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:36:45,707 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:45,707 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:45,707 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:45,707 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:36:45,707 - __main__ - INFO - System Status - CPU: 15.3% | MEM: 73.4% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:36:45,880 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:36:45] "GET / HTTP/1.1" 200 -
+2025-03-23 05:36:46,218 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:46,221 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 12.0%
+Memory Usage: 73.5%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:36:46,221 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:46,221 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:46,221 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:46,221 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:36:46,221 - __main__ - INFO - System Status - CPU: 12.0% | MEM: 73.5% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:36:47,929 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:47,932 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 8.5%
+Memory Usage: 72.6%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:36:47,933 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:47,933 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:47,933 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:47,933 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:36:47,933 - __main__ - INFO - System Status - CPU: 8.5% | MEM: 72.6% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:36:47,998 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:47,999 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:36:47,999 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:36:47] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:36:48,108 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:48,108 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:36:48,109 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:36:48] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:36:48,445 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:48,448 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 73.2%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:36:48,449 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:48,449 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:48,449 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:48,449 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 1.00
+2025-03-23 05:36:48,449 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 73.2% | DISK: 3.6% | Failure Prob: 1.00 | AI Active: False
+2025-03-23 05:36:50,001 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:50,002 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:36:50,002 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:36:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:36:50,113 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:50,113 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:36:50,113 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:36:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:36:50,142 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:50,145 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 21.7%
+Memory Usage: 72.8%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:36:50,145 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:50,145 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:50,145 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:50,145 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.74
+2025-03-23 05:36:50,145 - __main__ - INFO - System Status - CPU: 21.7% | MEM: 72.8% | DISK: 3.6% | Failure Prob: 0.74 | AI Active: False
+2025-03-23 05:36:50,672 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:50,675 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 12.3%
+Memory Usage: 72.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:36:50,676 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:50,676 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:50,676 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:50,676 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.74
+2025-03-23 05:36:50,676 - __main__ - INFO - System Status - CPU: 12.3% | MEM: 72.9% | DISK: 3.6% | Failure Prob: 0.74 | AI Active: False
+2025-03-23 05:36:52,001 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:52,002 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:36:52,002 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:36:52] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:36:52,111 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:52,111 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:36:52,112 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:36:52] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:36:52,360 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:52,363 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 16.0%
+Memory Usage: 72.9%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:36:52,364 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:52,364 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:52,364 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:52,364 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.74
+2025-03-23 05:36:52,364 - __main__ - INFO - System Status - CPU: 16.0% | MEM: 72.9% | DISK: 3.6% | Failure Prob: 0.74 | AI Active: False
+2025-03-23 05:36:52,904 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:52,908 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 73.0%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:36:52,908 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:52,908 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:52,908 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:52,908 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.74
+2025-03-23 05:36:52,908 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 73.0% | DISK: 3.6% | Failure Prob: 0.74 | AI Active: False
+2025-03-23 05:36:53,999 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:54,000 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:36:54,000 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:36:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:36:54,108 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:54,108 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:36:54,109 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:36:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:36:54,584 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:54,587 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 73.8%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:36:54,587 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:54,587 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:54,587 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:54,587 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.75
+2025-03-23 05:36:54,587 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 73.8% | DISK: 3.6% | Failure Prob: 0.75 | AI Active: False
+2025-03-23 05:36:55,124 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:55,127 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 16.7%
+Memory Usage: 73.2%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:36:55,127 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:55,127 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:55,127 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:55,128 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.74
+2025-03-23 05:36:55,128 - __main__ - INFO - System Status - CPU: 16.7% | MEM: 73.2% | DISK: 3.6% | Failure Prob: 0.74 | AI Active: False
+2025-03-23 05:36:56,002 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:56,002 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:36:56,003 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:36:56] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:36:56,117 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:56,118 - __main__ - ERROR - Error in get_metrics: 'FaultToleranceOptimizer' object has no attribute 'get_success_rate'
+2025-03-23 05:36:56,118 - werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 05:36:56] "GET /api/metrics HTTP/1.1" 200 -
+2025-03-23 05:36:56,812 - SystemAnalyzer - ERROR - Error generating predictions: This GradientBoostingRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:56,816 - SystemAnalyzer - WARNING - Critical Event Detected:
+Anomaly Score: -0.50
+CPU Usage: 0.0%
+Memory Usage: 73.6%
+Disk Usage: 3.6%
+Failure Probability: 0.00
+2025-03-23 05:36:56,816 - FaultToleranceOptimizer - ERROR - Error in anomaly detection: This IsolationForest instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:56,816 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:56,816 - FaultToleranceOptimizer - ERROR - Error predicting action effectiveness: This RandomForestRegressor instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-23 05:36:56,816 - FaultToleranceOptimizer - INFO - Optimization needed - Anomaly Score: 0.00, Failure Probability: 0.75
+2025-03-23 05:36:56,816 - __main__ - INFO - System Status - CPU: 0.0% | MEM: 73.6% | DISK: 3.6% | Failure Prob: 0.75 | AI Active: False

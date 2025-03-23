@@ -1,0 +1,160 @@
+2025-03-23 06:00:16,973 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:00:16,973 - INFO - Testing failure prediction...
+2025-03-23 06:00:17,131 - INFO - Failure prediction test completed
+2025-03-23 06:00:17,131 - INFO - System monitoring stopped
+2025-03-23 06:00:17,131 - INFO - Test cleanup completed
+2025-03-23 06:00:17,132 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:00:17,132 - INFO - Testing fault injection...
+2025-03-23 06:00:17,132 - INFO - Testing cpu_overload...
+2025-03-23 06:00:17,132 - INFO - Injecting fault: cpu_overload, duration: 5s, impact_factor: 1.5
+2025-03-23 06:00:17,132 - INFO - Starting recovery for cpu_overload
+2025-03-23 06:00:24,140 - INFO - System monitoring stopped
+2025-03-23 06:00:24,140 - INFO - Test cleanup completed
+2025-03-23 06:00:24,141 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:00:24,141 - INFO - Testing integrated system...
+2025-03-23 06:00:26,587 - INFO - Injecting fault: disk_fill, duration: 3s, impact_factor: 1.2
+2025-03-23 06:00:26,587 - INFO - Starting recovery for disk_fill
+2025-03-23 06:00:28,806 - INFO - Injecting fault: io_stress, duration: 3s, impact_factor: 1.4
+2025-03-23 06:00:28,806 - INFO - Starting recovery for io_stress
+2025-03-23 06:00:32,178 - INFO - Completed recovery for cpu_overload, success: True
+2025-03-23 06:00:35,613 - INFO - Completed recovery for disk_fill, success: True
+2025-03-23 06:03:29,540 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:03:29,540 - INFO - Testing failure prediction...
+2025-03-23 06:03:29,697 - INFO - Failure prediction test completed
+2025-03-23 06:03:29,697 - INFO - System monitoring stopped
+2025-03-23 06:03:29,697 - INFO - Test cleanup completed
+2025-03-23 06:03:29,697 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:03:29,697 - INFO - Testing fault injection...
+2025-03-23 06:03:29,697 - INFO - Testing cpu_overload...
+2025-03-23 06:03:29,698 - INFO - Injecting fault: cpu_overload, duration: 5s, impact_factor: 1.5
+2025-03-23 06:03:29,698 - INFO - Starting recovery for cpu_overload
+2025-03-23 06:03:36,702 - INFO - System monitoring stopped
+2025-03-23 06:03:36,702 - INFO - Test cleanup completed
+2025-03-23 06:03:36,702 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:03:36,702 - INFO - Testing integrated system...
+2025-03-23 06:03:39,108 - INFO - Injecting fault: memory_leak, duration: 3s, impact_factor: 1.3
+2025-03-23 06:03:39,108 - INFO - Starting recovery for memory_leak
+2025-03-23 06:03:44,738 - INFO - Completed recovery for cpu_overload, success: True
+2025-03-23 06:03:47,275 - INFO - Completed recovery for memory_leak, success: True
+2025-03-23 06:03:47,975 - INFO - Injecting fault: io_stress, duration: 3s, impact_factor: 1.4
+2025-03-23 06:03:47,975 - INFO - Starting recovery for io_stress
+2025-03-23 06:04:00,014 - INFO - Completed recovery for io_stress, success: True
+2025-03-23 06:04:05,715 - INFO - Injecting fault: disk_fill, duration: 3s, impact_factor: 1.2
+2025-03-23 06:04:05,715 - INFO - Starting recovery for disk_fill
+2025-03-23 06:04:07,721 - INFO - Integrated test results:
+2025-03-23 06:04:07,721 - INFO - metrics_collected: 14
+2025-03-23 06:04:07,721 - INFO - predictions_made: 14
+2025-03-23 06:04:07,721 - INFO - optimizations_suggested: 0
+2025-03-23 06:04:07,722 - INFO - analyses_performed: 14
+2025-03-23 06:04:07,722 - INFO - faults_injected: 3
+2025-03-23 06:04:07,722 - INFO - faults_recovered: 0
+2025-03-23 06:04:07,722 - INFO - Integrated system test completed
+2025-03-23 06:04:07,722 - INFO - System monitoring stopped
+2025-03-23 06:04:07,723 - INFO - Test cleanup completed
+2025-03-23 06:04:07,724 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:04:07,724 - INFO - Testing system under stress...
+2025-03-23 06:04:07,726 - INFO - Injecting fault: cpu_overload, duration: 5s, impact_factor: 1.5
+2025-03-23 06:04:07,726 - INFO - Starting recovery for cpu_overload
+2025-03-23 06:04:07,727 - INFO - Injecting fault: memory_leak, duration: 5s, impact_factor: 1.3
+2025-03-23 06:04:07,727 - INFO - Starting recovery for memory_leak
+2025-03-23 06:04:07,727 - WARNING - Cascade effect triggered: cpu_overload from primary fault: memory_leak
+2025-03-23 06:04:07,775 - INFO - Injecting fault: disk_fill, duration: 5s, impact_factor: 1.2
+2025-03-23 06:04:07,775 - INFO - Starting recovery for disk_fill
+2025-03-23 06:04:14,729 - INFO - Completed recovery for disk_fill, success: True
+2025-03-23 06:04:15,885 - INFO - Completed recovery for memory_leak, success: True
+2025-03-23 06:04:16,820 - INFO - Completed recovery for disk_fill, success: True
+2025-03-23 06:04:18,853 - INFO - Stress test completed
+2025-03-23 06:04:18,853 - INFO - System monitoring stopped
+2025-03-23 06:04:18,853 - INFO - Test cleanup completed
+2025-03-23 06:04:18,857 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:04:18,857 - INFO - Testing system analysis...
+2025-03-23 06:04:19,067 - INFO - System analysis test completed
+2025-03-23 06:04:19,068 - INFO - System monitoring stopped
+2025-03-23 06:04:19,068 - INFO - Test cleanup completed
+2025-03-23 06:04:19,068 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:04:19,068 - INFO - Testing system monitoring...
+2025-03-23 06:04:19,068 - INFO - System monitoring started
+2025-03-23 06:04:22,783 - INFO - Completed recovery for cpu_overload, success: True
+2025-03-23 06:04:29,613 - INFO - System monitoring test completed
+2025-03-23 06:04:29,613 - INFO - System monitoring stopped
+2025-03-23 06:04:29,613 - INFO - Test cleanup completed
+2025-03-23 06:04:29,614 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:04:29,614 - INFO - Testing system optimization...
+2025-03-23 06:04:29,788 - INFO - System optimization test completed
+2025-03-23 06:04:29,788 - INFO - System monitoring stopped
+2025-03-23 06:04:29,788 - INFO - Test cleanup completed
+2025-03-23 06:06:29,898 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:06:29,898 - INFO - Testing failure prediction...
+2025-03-23 06:06:30,054 - INFO - Failure prediction test completed
+2025-03-23 06:06:30,054 - INFO - System monitoring stopped
+2025-03-23 06:06:30,054 - INFO - Test cleanup completed
+2025-03-23 06:06:30,055 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:06:30,055 - INFO - Testing fault injection...
+2025-03-23 06:06:30,055 - INFO - Testing cpu_overload...
+2025-03-23 06:06:30,055 - INFO - Injecting fault: cpu_overload, duration: 5s, impact_factor: 1.5
+2025-03-23 06:06:30,055 - INFO - Starting recovery for cpu_overload
+2025-03-23 06:06:37,062 - INFO - System monitoring stopped
+2025-03-23 06:06:37,062 - INFO - Test cleanup completed
+2025-03-23 06:06:37,063 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:06:37,063 - INFO - Testing integrated system...
+2025-03-23 06:06:43,933 - INFO - Injecting fault: memory_leak, duration: 2s, impact_factor: 1.3
+2025-03-23 06:06:43,933 - INFO - Starting recovery for memory_leak
+2025-03-23 06:06:45,097 - INFO - Completed recovery for cpu_overload, success: True
+2025-03-23 06:06:52,093 - INFO - Completed recovery for memory_leak, success: True
+2025-03-23 06:06:57,238 - INFO - Injecting fault: disk_fill, duration: 2s, impact_factor: 1.2
+2025-03-23 06:06:57,238 - INFO - Starting recovery for disk_fill
+2025-03-23 06:06:57,238 - WARNING - Cascade effect triggered: memory_leak from primary fault: disk_fill
+2025-03-23 06:07:06,262 - INFO - Completed recovery for disk_fill, success: True
+2025-03-23 06:07:08,091 - INFO - Integrated test results:
+2025-03-23 06:07:08,092 - INFO - metrics_collected: 14
+2025-03-23 06:07:08,092 - INFO - predictions_made: 14
+2025-03-23 06:07:08,092 - INFO - optimizations_suggested: 0
+2025-03-23 06:07:08,092 - INFO - analyses_performed: 14
+2025-03-23 06:07:08,092 - INFO - faults_injected: 2
+2025-03-23 06:07:08,092 - INFO - faults_recovered: 0
+2025-03-23 06:07:08,092 - INFO - Integrated system test completed
+2025-03-23 06:07:08,092 - INFO - System monitoring stopped
+2025-03-23 06:07:08,092 - INFO - Test cleanup completed
+2025-03-23 06:07:08,092 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:07:08,093 - INFO - Testing system under stress...
+2025-03-23 06:07:08,094 - INFO - Injecting fault: cpu_overload, duration: 5s, impact_factor: 1.5
+2025-03-23 06:07:08,094 - INFO - Starting recovery for cpu_overload
+2025-03-23 06:07:08,094 - INFO - Injecting fault: memory_leak, duration: 5s, impact_factor: 1.3
+2025-03-23 06:07:08,094 - INFO - Starting recovery for memory_leak
+2025-03-23 06:07:08,122 - INFO - Injecting fault: disk_fill, duration: 5s, impact_factor: 1.2
+2025-03-23 06:07:08,122 - INFO - Starting recovery for disk_fill
+2025-03-23 06:07:08,122 - WARNING - Cascade effect triggered: memory_leak from primary fault: disk_fill
+2025-03-23 06:07:16,280 - INFO - Completed recovery for memory_leak, success: True
+2025-03-23 06:07:17,156 - INFO - Completed recovery for disk_fill, success: True
+2025-03-23 06:07:19,181 - INFO - Stress test completed
+2025-03-23 06:07:19,181 - INFO - System monitoring stopped
+2025-03-23 06:07:19,181 - INFO - Test cleanup completed
+2025-03-23 06:07:19,183 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:07:19,184 - INFO - Testing system analysis...
+2025-03-23 06:07:19,406 - INFO - System analysis test completed
+2025-03-23 06:07:19,406 - INFO - System monitoring stopped
+2025-03-23 06:07:19,406 - INFO - Test cleanup completed
+2025-03-23 06:07:19,406 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:07:19,406 - INFO - Testing system monitoring...
+2025-03-23 06:07:19,406 - INFO - System monitoring started
+2025-03-23 06:07:23,138 - INFO - Completed recovery for cpu_overload, success: True
+2025-03-23 06:07:29,970 - INFO - System monitoring test completed
+2025-03-23 06:07:29,970 - INFO - System monitoring stopped
+2025-03-23 06:07:29,970 - INFO - Test cleanup completed
+2025-03-23 06:07:29,971 - INFO - SystemMonitor initialized successfully
+2025-03-23 06:07:29,971 - INFO - Testing system optimization...
+2025-03-23 06:07:30,142 - INFO - System optimization test completed
+2025-03-23 06:07:30,142 - INFO - System monitoring stopped
+2025-03-23 06:07:30,142 - INFO - Test cleanup completed
+2025-03-23 10:09:14,822 - INFO - SystemMonitor initialized successfully
+2025-03-23 10:09:14,823 - INFO - Testing failure prediction...
+2025-03-23 10:09:14,979 - INFO - Failure prediction test completed
+2025-03-23 10:09:14,979 - ERROR - Error in test cleanup: 'FaultInjector' object has no attribute 'cleanup'
+2025-03-23 10:09:14,979 - INFO - SystemMonitor initialized successfully
+2025-03-23 10:09:14,979 - INFO - Testing fault injection...
+2025-03-23 10:09:14,979 - INFO - Testing memory leak...
+2025-03-23 10:09:14,980 - INFO - Injecting fault: memory_leak, duration: 3s, impact_factor: 1.3
+2025-03-23 10:09:14,980 - INFO - Starting recovery for memory_leak
+2025-03-23 10:09:15,988 - ERROR - Error in test cleanup: 'FaultInjector' object has no attribute 'cleanup'
+2025-03-23 10:09:15,988 - INFO - SystemMonitor initialized successfully
+2025-03-23 10:09:15,989 - INFO - Testing integrated system...
